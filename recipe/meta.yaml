@@ -1,6 +1,6 @@
 {% set name = "dupin" %}
-{% set version = "0.1.0" %}
-{% set sha256 = "73bdb419fef6ad2d2a3b198a05745e9adda232adf5f2f0b8a2b32ca72d7a8d2a" %}
+{% set version = "0.2.0" %}
+{% set sha256 = "a9c04a8b7bead23687f81f53d1d2bd5bf87086cdadcd2ea47fd01edb3291de7b" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 1
+  number: 0
 
 requirements:
   host:
