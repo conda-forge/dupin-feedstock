@@ -1,6 +1,6 @@
 {% set name = "dupin" %}
 {% set version = "0.2.0" %}
-{% set sha256 = "a9c04a8b7bead23687f81f53d1d2bd5bf87086cdadcd2ea47fd01edb3291de7b" %}
+{% set sha256 = "9ee9ad2d966cc0ef29d085e481a423a6cbcb5c82fe4582f50ea58ceb3bfc9c12" %}
 
 package:
   name: {{ name|lower }}
